@@ -90,4 +90,4 @@ Here’s the **step-by-step structure** I followed (and still follow for revisio
 
 ## 📦 How to Get This Repo
 ```bash
-git clone https://github.com/YourUsername/Java-Learning-Journey.git
+git clone https://github.com/SouravGorai2004/Java-Learning-Journey.git
