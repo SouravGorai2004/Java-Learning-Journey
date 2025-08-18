@@ -4,21 +4,24 @@ class Outer {
 
     void outerMethod() {
         int num = 10; // effectively final
-        
+
         // Local Inner Class
-        final class LocalInner {
+        class LocalInner {
             private String name;
-            LocalInner(String name){
-                this.name=name;
+
+            LocalInner(String name) {
+                this.name = name;
 
             }
+
             void show() {
                 System.out.println("Accessing outer field: " + outerData);
                 System.out.println("Accessing local variable: " + num);
                 System.out.println(age);
             }
-            void display(){
-            System.out.println("Name : "+this.name);
+
+            void display() {
+                System.out.println("Name : " + this.name);
             }
         }
 
@@ -32,6 +35,6 @@ public class LocalInnerClassDemo {
     public static void main(String[] args) {
         Outer o = new Outer();
         o.outerMethod();
-        
+
     }
 }
