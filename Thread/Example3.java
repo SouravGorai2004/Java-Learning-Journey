@@ -3,14 +3,14 @@ class MyThread extends Thread {
     public void run() {
         System.out.println("Calling : " + Thread.currentThread().getName());
     }
-    // MyThread(String name){
-    //     super(name);
-    // }
+    MyThread(String name){
+        super(name);
+    }
 }
 
 public class Example3 extends Thread {
     public static void main(String[] args) throws InterruptedException {
-        Thread t1 = new Thread("Sourav");
+        Thread t1 = new MyThread("Sourav");
         t1.start();
         // t1.join();
         // Example3 ex = new Example3();

@@ -1,6 +1,6 @@
 package Streams;
 
-import java.util.stream.Stream;
+
 import java.util.ArrayList;
 
 public class Example1 {
